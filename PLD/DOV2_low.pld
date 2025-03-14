@@ -1,0 +1,45 @@
+Name     DOV2 ;
+PartNo   DOV2 ;
+Date     11/06/2021 ;
+Revision 02 ;
+Designer demik ;
+Company  Dove ;
+Assembly None ;
+Location None ;
+Device   g16v8a ;
+
+/* Dedicated input pins */
+PIN 1   = i1                      ; /* Input                           */ 
+PIN 2   = i2                      ; /* Input                           */ 
+PIN 3   = i3                      ; /* Input                           */ 
+PIN 4   = i4                      ; /* Input                           */ 
+PIN 5   = i5                      ; /* Input                           */ 
+PIN 6   = i6                      ; /* Input                           */ 
+PIN 7   = i7                      ; /* Input                           */ 
+PIN 8   = i8                      ; /* Input                           */ 
+PIN 9   = i9                      ; /* Input                           */ 
+PIN 11  = i11                     ; /* Input                           */ 
+PIN 15  = i15                     ; /* Input                           */ 
+PIN 16  = i16                     ; /* Input                           */ 
+PIN 17  = i17                     ; /* Input                           */ 
+PIN 18  = i18                     ; /* Input                           */ 
+
+/* Programmable output pins */
+PIN 12  = o12                     ; /* Combinatorial output            */ 
+PIN 13  = o13                     ; /* Combinatorial output            */ 
+PIN 14  = o14                     ; /* Combinatorial output            */ 
+PIN 19  = o19                     ; /* Combinatorial output            */ 
+
+/* Output equations */
+o12.d	= i11;
+o12.OE = i4;
+
+o13    = !i1 & !i2 & i3 & i5 & !i6 & i7 & i8 & !i15 & !i16 & !i17 & !i18
+       # !i1 & i2 & !i3 & !i5 & !i6 & i7 & i8 & !i15 & i16 & i17 & i18;
+o13.oe = i4;
+
+o14    = !i1 & !i2 & !i3 & !i6 & !i7 & i9 & !i15 & !i16 & !i17 & !i18;
+
+o19    = !i1 & !i2 & i3 & i5 & i7 & i8 & !i15 & !i16 & !i17 & !i18
+       # !i1 & i2 & !i3 & !i5 & !i6 & i7 & i8 & !i15 & i16 & i17 & i18;
+
