@@ -11,11 +11,14 @@ It was developed by Dove Computer Corporation. This is a REcreation with a few i
 
 <br />
 <br />
+<br />
+<br />
 
 ## [![Button Documentation]][Documentation]
-Kikad Files are located [here](EDA/REloaded), as well with building instructions
-PLD files are located [here](PLD)
-Gerbers files are in the [release section](https://github.com/demik/MacSnap-SCSI/releases/download/v2.1/MacSnap_SCSI_Reloaded_2.1.zip)
+- Kikad Files are located [here](EDA/REloaded), as well with building instructions for the REloaded board
+- PLD files are located [here](PLD)
+- Gerbers files are in the [release section](https://github.com/demik/MacSnap-SCSI/releases/download/v2.1/MacSnap_SCSI_Reloaded_2.1.zip)
+- Schematic in PDF form is [here](https://github.com/demik/MacSnap-SCSI/blob/main/EDA/REloaded/MacSnap%20SCSI.pdf)
 
 <!----------------------------------------------------------------------------->
 
@@ -23,4 +26,4 @@ Gerbers files are in the [release section](https://github.com/demik/MacSnap-SCSI
 
 <!-------------------------------[ Buttons ]----------------------------------->
 
-[Button Documentation]: https://img.shields.io/badge/Documentation-0099E5?style=for-the-badge&logoColor=white&logo=BookStack
+[Button Documentation]: https://img.shields.io/badge/Documentation-FFDD21?style=for-the-badge&logoColor=white&logo=BookStack
