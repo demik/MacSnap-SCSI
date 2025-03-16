@@ -5,7 +5,7 @@ Footprint is very similar. Like the original, the SCSI is provided through a LPT
 
 This folder contains the source KiKad files for this board.
 
-![PCB](MacSnap SCSI.png)
+![PCB](MacSnap%20SCSI.png)
 
 ## ![Button BOM]
 ### Mandatory
@@ -37,7 +37,7 @@ Using sockets is recommended because it will allow you to reclaim both ROMs (to 
 
 ### Alternate
 
-Both the 53C80 SCSI chip and MC34268 are obsolete components. NCR 5380 in PLCC package is a working substitute. As for the active terminator LDO, there is an alternate build which consist of the following components:
+Both the 53C80 SCSI chip and MC34268 are obsolete components. NCR5380 in PLCC package is a working substitute. As for the active terminator LDO, there is an alternate build which consist of the following components:
 
 | Reference(s)          | Value      | Quantity | Notes                                  | Part number              |
 |-----------------------|------------|----------|----------------------------------------|--------------------------|
