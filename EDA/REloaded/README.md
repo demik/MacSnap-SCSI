@@ -79,4 +79,4 @@ A TL866 II or T48 can program ATF16V8Bs just fine. Avoid ATF16V8BQL or ATF16V8C 
 <!-------------------------------[ Buttons ]----------------------------------->
 
 [Button BOM]: https://img.shields.io/badge/BOM-FFDD21?style=for-the-badge&logoColor=white&logo=BookStack
-[Button Building]: https://img.shields.io/badge/BOM-FFDD21?style=for-the-badge&logoColor=white&logo=opensourcehardware
+[Button Building]: https://img.shields.io/badge/Building-FFDD21?style=for-the-badge&logoColor=white&logo=opensourcehardware
