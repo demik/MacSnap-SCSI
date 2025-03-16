@@ -26,4 +26,4 @@ It was developed by Dove Computer Corporation. This is a REcreation with a few i
 
 <!-------------------------------[ Buttons ]----------------------------------->
 
-[Button Documentation]: https://img.shields.io/badge/Documentation-FFDD21?style=for-the-badge&logoColor=white&logo=BookStack
+[Button Documentation]: https://img.shields.io/badge/Documentation-FFDD21?style=for-the-badge&logoColor=white&logo=opensourcehardware
