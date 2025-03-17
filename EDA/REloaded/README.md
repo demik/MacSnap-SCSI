@@ -48,14 +48,14 @@ When the LT1117CST build variant is used, do not populate U8
 
 ## ![Button Building]
 
-Main PCB is 2 layers, the gerbers are avaible in the [release section](https://github.com/demik/MacSnap-SCSI/releases/download/v2.1/MacSnap_SCSI_Reloaded_2.1.zip)
+PCB is 2 layers, the gerbers are avaible in the [release section](https://github.com/demik/MacSnap-SCSI/releases/download/v2.1/MacSnap_SCSI_Reloaded_2.1.zip)
 You should be able to use any mainstream PCB manufacturer. Nothing special about this PCB, thickness should be 1.6mm
 
-On JLCPCB, select "Create 2D barcode (Serial Number)" to the option "Remove Order Number". Others options to set:
+On JLCPCB, select _Create 2D barcode (Serial Number)_ to the option _Remove Order Number_. Others options to set:
 - Printing: 2D barcode Only
 - Code Type: QR Code
 - Serial Number: MACSNAPSCSI
-- QR Code Size: 10*10mm
+- QR Code Size: 10mm * 10mm
 - QR Code Position: Specify Position
 
 ### Assembling
