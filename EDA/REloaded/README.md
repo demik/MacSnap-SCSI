@@ -3,6 +3,11 @@
 This is a simple design clone to the original, using mostly all through hole components. It's designed this way to be period correct and easy to build for people who don't like soldering SMD components. The only SMD component is the 2.85V voltage regulator for SCSI termination.
 Footprint is very similar. Like the original, the SCSI is provided through a LPT header.
 
+The board has a few improvements:
+- provides power to SCSI devices
+- active SCSI termination
+- voltage supervisor / reset ciruit
+
 This folder contains the source KiKad files for this board.
 
 ![PCB](MacSnap%20SCSI.png)
