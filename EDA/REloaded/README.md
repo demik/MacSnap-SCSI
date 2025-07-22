@@ -81,6 +81,11 @@ You will need the following .jed files to program both ATF with this board:
 
 A TL866 II or T48 can program ATF16V8Bs just fine. Avoid ATF16V8BQL or ATF16V8C as this has not been tested and might lead into issues
 
+### ROMs
+
+Using real OEM ROMs is recommended, as replica ROMs do have different access timing, as well as source and sink power capabilities, and thus may not work with the MacSnap SCSI.
+The following OEM sets have been tested without issues: 342-0341-B & 342-0342-A, 342-0341-C + 342-0342-B
+
 <!-------------------------------[ Buttons ]----------------------------------->
 
 [Button BOM]: https://img.shields.io/badge/BOM-FFDD21?style=for-the-badge&logoColor=white&logo=BookStack
