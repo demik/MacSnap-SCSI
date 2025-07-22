@@ -83,8 +83,10 @@ A TL866 II or T48 can program ATF16V8Bs just fine. Avoid ATF16V8BQL or ATF16V8C 
 
 ### ROMs
 
-Using real OEM ROMs is recommended, as replica ROMs do have different access timing, as well as source and sink power capabilities, and thus may not work with the MacSnap SCSI.
-The following OEM sets have been tested without issues: 342-0341-B & 342-0342-A, 342-0341-C + 342-0342-B
+Using real OEM ROMs is recommended. Replica ROMs do have different access timings, source and sink power capabilities, and thus may not work well with the MacSnap SCSI.
+The following OEM sets have been tested without issues: 
+- 342-0341-B & 342-0342-A
+- 342-0341-C + 342-0342-B
 
 <!-------------------------------[ Buttons ]----------------------------------->
 
